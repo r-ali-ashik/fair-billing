@@ -11,8 +11,7 @@ Application is still a **console application** and can be run from the command l
 ## Technologies Used
 - **Java**: Build 1.8.0_202-b08
 - **Maven**: Version 3.6.3
-- **JUnit**: Version 
-- **Mockito**: Version
+- **JUnit**: Version 5.10.2
 
 ## Project Structure
 ```
