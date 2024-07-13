@@ -62,21 +62,28 @@ Application is still a **console application** and can be run from the command l
 ## How to Compile and Run
 Please ensure that Java 8 is installed on your computer and that the Java Runtime Environment (`java`) and Java Compiler (`javac`) are available in your classpath.  
 - Open your terminal and navigate to the root directory of the Java source code:
-```bash
-cd /src/main/java  
-```
+  ```bash
+  cd /src/main/java  
+  ```
 - Compile all .java files inside all packages:
-```bash
-javac **/*.java  
-```
-- Copy your input file into the root directory of the Java source code:
-```bash
-cp /path/to/your/input/file.txt /src/main/java  
-```
+  ```bash
+  javac **/*.java  
+  ```
+- Locate your input file & copy your input file into the root directory of the Java source code (optional)
+  ```bash
+  cp /path/to/your/input/file.txt /src/main/java  
+  ```
 - To run the application, execute the following command in the terminal:
-```bash
-java Main your_file_name.txt
-```
+
+  (If you moved your input file into the same directory as Main.java)
+  ```bash
+  java Main your_file_name.txt
+  ```
+  (If you didn't move the input file into the same directory as Main.java)
+  ```bash
+  java Main /path/to/your/input/file.txt
+  ```
+  
 There is a sample input file `input.txt` in the `resources `directory. 
 
 ***IMPORTANT**: If you pass multiple arguments, the application will consider the first valid one (the one with `.txt` extension).  Please replace /path/to/your/input/file.txt with the actual path to your input file, and replace your_file_name.txt with the actual name of your input file
