@@ -11,7 +11,6 @@ import static util.AppUtils.isEmpty;
 import static util.AppUtils.isNull;
 import static util.AppUtils.getFileName;
 
-
 public class Main {
     public static void main(String[] args) {
         if (args.length < 1) {
@@ -39,6 +38,4 @@ public class Main {
             System.err.println("Sorry! System failed to process the fair billing: " + ex.getMessage());
         }
     }
-
-
 }
