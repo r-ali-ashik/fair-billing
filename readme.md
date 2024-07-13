@@ -88,7 +88,7 @@ There is a sample input file `input.txt` in the `resources `directory.
 
 ***IMPORTANT**: If you pass multiple arguments, the application will consider the first valid one (the one with `.txt` extension).  Please replace /path/to/your/input/file.txt with the actual path to your input file, and replace your_file_name.txt with the actual name of your input file
 
-## How to Run Tests
+## How to Run the Tests
 The application uses JUnit for testing. To run the tests execute the following command in the terminal:
 ```bash
 mvn clean test
